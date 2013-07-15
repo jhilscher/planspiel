@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<Reasons>
+	<Reason>
+		<Name>Leistung ok</Name>
+	</Reason>
+	<Reason>
+		<Name>Leistung zu gering</Name>
+	</Reason>
+	<Reason>
+		<Name>Budget vorhanden</Name>
+	</Reason>
+	<Reason>
+		<Name>kein Budget vorhanden</Name>
+	</Reason>
+</Reasons>

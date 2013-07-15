@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<Decisions>
+	<Decision>
+		<Name>Antrag weiterreichen</Name>
+	</Decision>
+	<Decision>
+		<Name>Antrag genehmigen</Name>
+	</Decision>
+	<Decision>
+		<Name>Antrag ablehnen</Name>
+	</Decision>
+</Decisions>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="localhost" name="test.service.bpmn.BpmnElementTest" skipped="0" tests="8" time="0.982" timestamp="2013-06-20T14:35:18">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="coverage.summaryxml.dir" value="/awp/workspace/planspielBPMNTomEE/reports/cobertura-summary-xml" />
+    <property name="hamcrest.jar" value="WebContent/WEB-INF/lib/hamcrest-core-1.1.jar" />
+    <property name="commons-logging.jar" value="WebContent/WEB-INF/lib/commons-logging-1.1.1.jar" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/awp/eclipse/plugins/org.eclipse.pde.build_3.8.2.v20121114-140810/templates//" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="tomcat-manager-password" value="bpmn" />
+    <property name="dist" value="target/dist" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="tomcat-manager-url-vserver" value="http://185.16.61.87:8080/manager/text" />
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre/lib/modules/jdk.boot.jar:/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre/lib/JObjC.jar:/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre/classes" />
+    <property name="bpmn2.jar" value="WebContent/WEB-INF/lib/org.eclipse.bpmn2-0.7.0.003.jar" />
+    <property name="reports.html.dir" value="/awp/workspace/planspielBPMNTomEE/reports/junit.html" />
+    <property name="facesImpl.jar" value="WebContent/WEB-INF/externalJars/myfaces-impl-2.1.10.jar" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/awp/eclipse/plugins/org.apache.ant_1.8.3.v201301120609" />
+    <property name="build-info.DSTAMP" value="20130620" />
+    <property name="java.runtime.version" value="1.7.0-ea-b223" />
+    <property name="checkstyle.jar" value="WebContent/WEB-INF/lib/checkstyle-5.6.jar" />
+    <property name="cobertura.dir" value="WebContent/WEB-INF/lib/" />
+    <property name="user.name" value="christianroser" />
+    <property name="tomcat-manager-username" value="bpmn" />
+    <property name="user.language" value="de" />
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre/lib" />
+    <property name="reports.dir" value="/awp/workspace/planspielBPMNTomEE/reports" />
+    <property name="ant.project.default-target" value="reDeployRemote" />
+    <property name="report.findbugs.dir" value="reports" />
+    <property name="junit4.jar" value="WebContent/WEB-INF/lib/junit-4.11.jar" />
+    <property name="ant.project.name" value="planspielBPMNTomEE" />
+    <property name="guava.jar" value="WebContent/WEB-INF/lib/guava-r08.jar" />
+    <property name="java.version" value="1.7.0-ea" />
+    <property name="coverage.html.dir" value="/awp/workspace/planspielBPMNTomEE/reports/cobertura-html" />
+    <property name="classes" value="target/classes" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="tomcat-manager-url-local" value="http://localhost:8080/manager/text" />
+    <property name="build.coverage.dir" value="/awp/workspace/planspielBPMNTomEE/reports" />
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="US-ASCII" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="classes.dir" value="/awp/workspace/planspielBPMNTomEE/build/classes" />
+    <property name="java.class.version" value="51.0" />
+    <property name="source-directory" value="src/main" />
+    <property name="user.country" value="DE" />
+    <property name="build-info.current-date" value="20-June-2013" />
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="/awp/workspace/planspielBPMNTomEE/build.xml" />
+    <property name="os.version" value="10.8.3" />
+    <property name="build-info.TODAY" value="June 20 2013" />
+    <property name="test.reports" value="reports" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="21.0-b17" />
+    <property name="servlet.jar" value="WebContent/WEB-INF/lib/servlet-api.jar" />
+    <property name="ant.library.dir" value="/awp/eclipse/plugins/org.apache.ant_1.8.3.v201301120609/lib" />
+    <property name="build-info.year-month-day" value="2013-06-20" />
+    <property name="emf.ecore.jar" value="WebContent/WEB-INF/lib/org.eclipse.emf.ecore-2.7.0.jar" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="web-xml-file" value="WebContent/WEB-INF/web.xml" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+    <property name="eclipse.pdebuild.scripts" value="/awp/eclipse/plugins/org.eclipse.pde.build_3.8.2.v20121114-140810/scripts//" />
+    <property name="facesCore.jar" value="WebContent/WEB-INF/externalJars/myfaces-api-2.1.10.jar" />
+    <property name="reports.xml.dir" value="/awp/workspace/planspielBPMNTomEE/reports/junit-xml" />
+    <property name="user.home" value="/Users/christianroser" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="cob.dir" value="/awp/workspace/planspielBPMNTomEE/src" />
+    <property name="coverage.xml.dir" value="/awp/workspace/planspielBPMNTomEE/reports/cobertura-xml" />
+    <property name="test.dir" value="/awp/workspace/planspielBPMNTomEE/test" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.library.path" value="/Users/christianroser/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="build-info.TSTAMP" value="1635" />
+    <property name="gopherProxySet" value="false" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="bin.dir" value="/awp/workspace/planspielBPMNTomEE/target/classes" />
+    <property name="war-file-name" value="planspiel.war" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.3 compiled on February 26 2012" />
+    <property name="java.class.path" value="/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/hamcrest-core-1.1.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/junit-4.11.jar:/awp/workspace/planspielBPMNTomEE/target/classes:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/org.eclipse.bpmn2-0.7.0.003.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/org.eclipse.emf.ecore-2.7.0.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/org.eclipse.emf.ecore.xmi-2.7.0-v20110520-1406.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/org.eclipse.emf.common-2.7.0-v20110605-0747.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/servlet-api.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/externalJars/myfaces-impl-2.1.10.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/externalJars/myfaces-api-2.1.10.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/log4j-1.2.17.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/apache-mime4j-0.6.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/bsh-1.3.0.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/cglib-nodep-2.1_3.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/commons-collections-3.2.1.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/commons-exec-1.1.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/commons-io-2.2.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/commons-jxpath-1.3.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/commons-lang3-3.1.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/commons-logging-1.1.1.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/cssparser-0.9.9.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/guava-14.0.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/hamcrest-core-1.3.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/hamcrest-library-1.3.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/htmlunit-2.12.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/htmlunit-core-js-2.12.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/httpclient-4.2.1.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/httpcore-4.2.1.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/httpmime-4.2.1.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/ini4j-0.5.2.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/jcommander-1.29.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/jetty-websocket-8.1.8.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/jna-3.4.0.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/jna-platform-3.4.0.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/json-20080701.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/junit-dep-4.11.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/nekohtml-1.9.17.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/netty-3.5.7.Final.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/operadriver-1.3.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/phantomjsdriver-1.0.3.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/protobuf-java-2.4.1.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/sac-1.3.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/serializer-2.7.1.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/testng-6.8.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/xalan-2.7.1.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/xml-apis-1.4.01.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/selenium-java-2.33.0.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/selenium-java-2.33.0-srcs.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/log4j-1.2.17.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/ant-1.8.3-sources.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/ant-1.8.3.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/ant-junit-1.9.0-sources.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/ant-junit-1.9.0.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/ant-launcher-1.8.3-sources.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/ant-launcher-1.8.3.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/asm-4.1-sources.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/asm-4.1.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/asm-commons-4.1.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/commons-io-2.4-javadoc.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/commons-io-2.4-sources.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/commons-io-2.4.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/jakarta-oro-2.0.8.jar:/awp/workspace/planspielBPMNTomEE/Webcontent/WEB-INF/lib/log4j-1.2.9.jar:/awp/workspace/planspielBPMNTomEE/build/classes:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/activation-1.1.1.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/alt_cobertura.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/annotations.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/ant-1.8.3-sources.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/ant-1.8.3.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/ant-junit-1.9.0-sources.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/ant-junit-1.9.0.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/ant-launcher-1.8.3-sources.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/ant-launcher-1.8.3.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/ant.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/antlr-2.7.6.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/apache-mime4j-0.6.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/api-all-1.0.0-M15.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/asm-3.1.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/asm-3.3.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/asm-4.1-sources.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/asm-4.1.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/asm-analysis-3.3.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/asm-attrs-1.5.3.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/asm-commons-3.3.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/asm-commons-4.1.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/asm-tree-3.3.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/asm-tree-4.1.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/asm-util-3.3.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/asm-xml-3.3.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/atmosphere-compat-jbossweb-0.8.4.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/atmosphere-compat-jetty-0.8.4.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/atmosphere-compat-tomcat-0.8.4.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/atmosphere-compat-tomcat7-0.8.4.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/atmosphere-compat-weblogic-0.8.4.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/atmosphere-runtime-0.8.4.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/bcel.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/bsh-1.3.0.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/catalina-ant.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/cglib-nodep-2.1_3.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/checkstyle-5.6.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/cobertura.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/commons-beanutils-core-1.8.3.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/commons-codec-1.6.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/commons-collections-3.2.1.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/commons-discovery-0.2.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/commons-exec-1.1.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/commons-io-2.2.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/commons-io-2.4-javadoc.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/commons-io-2.4-sources.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/commons-io-2.4.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/commons-jxpath-1.3.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/commons-lang-2.4.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/commons-lang3-3.1.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/commons-logging-1.1.1.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/cssparser-0.9.5.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/cssparser-0.9.9.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/dom4j-1.6.1.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/el-api-2.2.0-SNAPSHOT.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/el-impl-2.2.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/el-ri-1.0.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/findbugs-ant.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/findbugs.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/guava-14.0.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/guava-r08.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/hamcrest-core-1.3.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/hamcrest-library-1.3.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/htmlunit-2.12.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/htmlunit-core-js-2.12.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/httpclient-4.2.1.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/httpcore-4.2.1.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/httpmime-4.2.1.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/ini4j-0.5.2.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/jFormatString.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/jackson-core-asl-1.9.2.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/jackson-jaxrs-1.9.2.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/jackson-mapper-asl-1.9.2.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/jackson-xc-1.9.2.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/jakarta-oro-2.0.8.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/jaxen-1.1.1.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/jcip-annotations.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/jcommander-1.29.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/jdepend-2.9.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/jdom-1.0.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/jettison-1.1.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/jetty-websocket-8.1.8.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/jna-3.4.0.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/jna-platform-3.4.0.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/json-20080701.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/jsr305.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/jsr311-api-1.1.1.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/jstl-1.1.2.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/jta-1.1.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/junit-dep-4.11.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/log4j-1.2.16.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/log4j-1.2.9.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/mockito-all-1.9.5.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/nekohtml-1.9.17.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/netty-3.5.7.Final.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/operadriver-1.3.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/oro-2.0.8.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/persistence-api-1.0.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/phantomjsdriver-1.0.3.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/pmd-3.4.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/pmd-5.0.4.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/protobuf-java-2.4.1.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/richfaces-components-api-4.2.3.Final.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/richfaces-components-ui-4.2.3.Final.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/richfaces-core-api-4.2.3.Final.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/richfaces-core-impl-4.2.3.Final.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/sac-1.3.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/selenium-java-2.33.0-srcs.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/selenium-java-2.33.0.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/selenium-server-2.32.0.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/serializer-2.7.1.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/testng-6.8.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/tomcat-coyote.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/tomcat-juli.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/tomcat-util.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/validation-api-1.0.0.GA.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/xalan-2.7.1.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/xml-apis-1.4.01.jar:/awp/workspace/planspielBPMNTomEE/WebContent/WEB-INF/lib/yjp-controller-api-redist.jar:/awp/eclipse/plugins/org.apache.ant_1.8.3.v201301120609/lib/ant-launcher.jar:/awp/eclipse/plugins/org.apache.ant_1.8.3.v201301120609/lib/ant.jar:/awp/eclipse/plugins/org.apache.ant_1.8.3.v201301120609/lib/ant-junit.jar:/awp/eclipse/plugins/org.apache.ant_1.8.3.v201301120609/lib/ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.service.bpmn.BpmnElementTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/awp/workspace/planspielBPMNTomEE/reports/JUnit/TEST-test.service.bpmn.BpmnElementTest.xml crashfile=/awp/workspace/planspielBPMNTomEE/junitvmwatcher8144687018962260878.properties propsfile=/awp/workspace/planspielBPMNTomEE/junit278014670546602642.properties" />
+    <property name="classes-directory" value="build/classes" />
+    <property name="build-info.current-time" value="04:35:12 PM CEST" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="selenium.jar" value="WebContent/WEB-INF/lib/selenium-server-2.32.0.jar" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="log4j.jar" value="WebContent/WEB-INF/lib/log4j-1.2.17.jar" />
+    <property name="pmd.jar" value="WebContent/WEB-INF/lib/pmd-5.0.4.jar" />
+    <property name="eclipse.pdebuild.home" value="/awp/eclipse/plugins/org.eclipse.pde.build_3.8.2.v20121114-140810/.//" />
+    <property name="java.io.tmpdir" value="/var/folders/18/lqnr25_d2bxcr9w80ppd3ydh0000gn/T/" />
+    <property name="ant.file.planspielBPMNTomEE" value="/awp/workspace/planspielBPMNTomEE/build.xml" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="emf.ecore.xmi.jar" value="WebContent/WEB-INF/lib/org.eclipse.emf.ecore.xmi-2.7.0-v20110520-1406.jar" />
+    <property name="emf.ecore.common.jar" value="WebContent/WEB-INF/lib/org.eclipse.emf.common-2.7.0-v20110605-0747.jar" />
+    <property name="instrumented.dir" value="/awp/workspace/planspielBPMNTomEE/instrumented" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+    <property name="os.arch" value="x86_64" />
+    <property name="findbugs.home.dir" value="WebContent/WEB-INF/lib" />
+    <property name="java.ext.dirs" value="/Users/christianroser/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="user.dir" value="/awp/workspace/planspielBPMNTomEE" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="doc-directory" value="WebContent/doc" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="project-name" value="planspielBPMN" />
+    <property name="basedir" value="/awp/workspace/planspielBPMNTomEE" />
+    <property name="web-directory" value="WebContent" />
+    <property name="build-directory" value="build" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="tomcat-manager-url" value="http://bpmnServer:8080/manager/text" />
+    <property name="ant.core.lib" value="/awp/eclipse/plugins/org.apache.ant_1.8.3.v201301120609/lib/ant.jar" />
+    <property name="catalina-ant-dir" value="WebContent/WEB-INF/lib" />
+    <property name="file.encoding" value="US-ASCII" />
+    <property name="commons-beanutils-core.jar" value="WebContent/WEB-INF/lib/commons-beanutils-core-1.8.3.jar" />
+    <property name="antlr.jar" value="WebContent/WEB-INF/lib/antlr-2.7.6.jar" />
+    <property name="ant.file.type.planspielBPMNTomEE" value="file" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="src.dir" value="/awp/workspace/planspielBPMNTomEE/src/main" />
+    <property name="ant.project.invoked-targets" value="coverage" />
+  </properties>
+  <testcase classname="test.service.bpmn.BpmnElementTest" name="bpmnEdgesTest" time="0.085" />
+  <testcase classname="test.service.bpmn.BpmnElementTest" name="changeXTest" time="0.0" />
+  <testcase classname="test.service.bpmn.BpmnElementTest" name="elementWithLaneTest" time="0.004" />
+  <testcase classname="test.service.bpmn.BpmnElementTest" name="addToProcessTest" time="0.0" />
+  <testcase classname="test.service.bpmn.BpmnElementTest" name="multiplePrevElementsTest" time="0.0" />
+  <testcase classname="test.service.bpmn.BpmnElementTest" name="prevElementTest" time="0.0" />
+  <testcase classname="test.service.bpmn.BpmnElementTest" name="addToDiagramTest" time="0.0" />
+  <testcase classname="test.service.bpmn.BpmnElementTest" name="changeNameTest" time="0.001" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
